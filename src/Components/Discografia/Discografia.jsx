@@ -52,7 +52,7 @@ function Discografia() {
     useEffect(() => {
         const song = albumData.find(album => album.id === currentlyPlayingId);
         if (song) {
-            const src = `/src/music/${song.songSrc}`;
+            const src = `/music/${song.songSrc}`;
             audioRef.current.src = src;
 
             if (isPlaying) {
