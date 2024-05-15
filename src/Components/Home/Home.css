@@ -1,0 +1,237 @@
+@import url(../../index.css);
+
+.main {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem;
+
+    gap: 2rem;
+
+    @media (max-width: 768px) {
+        gap: 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .album-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        position: relative;
+        border: 1rem solid var(--primary-color);
+        border-radius: 3rem;
+
+        .ton-album {
+            height: 40rem;
+            width: auto;
+            border-radius: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .ton-album {
+                height: 20rem;
+                width: auto;
+                border-radius: 2rem;
+            }
+        }
+
+        .play-icon {
+            position: absolute;
+            left: 0;
+            bottom: 45%;
+            height: 5rem;
+            opacity: .2;
+            transition: .1s ease-in-out;
+        }
+
+        @media (max-width: 768px) {
+            .play-icon {
+                height: 4rem;
+                bottom: 42%;
+                opacity: 1;
+            }
+        }
+
+        :hover {
+            .play-icon {
+                opacity: 1;
+                transition: .1s ease-in-out;
+            }
+
+            .ton-album {
+                opacity: 0.9;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .album-card {
+            order: -1;
+        }
+    }
+}
+
+.home-container {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+
+    background-color: var(--dark);
+    height: 55rem;
+
+}
+
+.tezbrit-home {
+
+
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+
+    
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+        background-color: var(--dark);
+    }
+
+    .tez-logo {
+        height: 5rem;
+        margin: 0 2rem;
+    }
+
+    @media (max-width: 768px) {
+        .tez-logo {
+            height: 4rem;
+            margin: 0;
+        }
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-weight: 300;
+            font-size: 4rem;
+            color: var(--primary-color);
+        }
+    }
+
+    img {
+        width: auto;
+        filter: invert();
+    }
+
+    @media (max-width: 768px) {
+        img {
+            filter: none;
+        }
+    }
+
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    img {
+        height: 5rem;
+        width: auto;
+        margin: 0;
+        transition: ease-in-out .2s;
+    }
+
+    @media (max-width: 768px) {
+        img {
+            height: 7rem;
+        }
+    }
+
+    a {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .spotify {
+        background-color: var(--primary-color);
+        transition: ease-in-out .2s;
+
+        &:hover {
+            background-color: #00DA5A;
+            transition: ease-in-out .2s;
+            img {
+                filter: invert();
+                transform: scale(1.2);
+                transition: ease-in-out .2s;
+            }
+        }
+    }
+
+    .youtube {
+        background-color: var(--primary-color);
+
+        &:hover {
+            background-color: #CE1312;
+            transition: ease-in-out .2s;
+            img {
+                filter: invert();
+                transform: scale(1.2);
+                transition: ease-in-out .2s;
+            }
+        }
+    }
+
+    .instagram {
+        background-color: var(--primary-color);
+
+        &:hover {
+            background-image: linear-gradient(to bottom, #7024C4, #C21975, #E09B3D);
+            transition: ease-in-out .2s;
+            img {
+                filter: invert();
+                transform: scale(1.2);
+                transition: ease-in-out .2s;
+            }
+        }
+    }
+
+    .soundcloud {
+        background-color: var(--primary-color);
+
+        &:hover {
+            background-color: #FF4300;
+            transition: ease-in-out .2s;
+            img {
+                filter: invert();
+                transform: scale(1.2);
+                transition: ease-in-out .2s;
+            }
+        }
+    }
+}

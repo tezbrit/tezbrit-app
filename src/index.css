@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+:root {
+  --primary-color: #10e0d3;
+  --secondary-color: #d8286c;
+  --dark: #010008;
+  --light: #ffffff;
+  --font: "Reddit Mono", monospace;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body { 
+  font-size: 1.6rem;
+  font-family: var(--font);
+  background-color: var(--dark);
+  margin: 0;
+
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 1rem;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+
+  list-style: none;
+  margin: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  
+  background: transparent;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+input[type=range]:active::-webkit-slider-thumb {
+  background-color: var(--primary-color);
+  height: 2rem;
+  width: 2rem;
+  margin-top: -8px;
+  transition: .1s ease-in-out;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #262626;
+  height: .5rem;
+  border-radius: 1rem;
+
+  /* &:hover {
+    background-color: #575757;
+  } */
+}
+
+input[type="range"]:hover::-webkit-slider-runnable-track {
+  background-color: #575757;
+}
+
+input[type="range"]::-moz-range-track {
+  background: var(--secondary-color);
+  height: .5rem;
+  border-radius: 1rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -4px;
+  background-color: var(--secondary-color);
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 100%;
+
+  &:active {
+    background-color: var(--primary-color);
+    height: 2rem;
+    width: 2rem;
+    margin-top: -8px;
+  }
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+
+
+.btn {
+  text-align: center;
+  color: var(--primary-color);
+  background-color: var(--dark);
+  border: 2px solid var(--primary-color);
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  margin: 0;
+  transition: ease-in-out .2s;
+  
+  &:hover {
+    cursor: pointer;
+    color: var(--dark);
+    background-color: var(--primary-color);
+    transition: ease-in-out .2s;
+  }
+}
+
+

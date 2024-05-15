@@ -1,0 +1,71 @@
+@import url(../../index.css);
+
+.menu {
+
+    z-index: 999;
+
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    width: 20vw;
+    height: 100vh;
+
+    background-color: var(--dark);
+
+    box-shadow: 1px 1px 3rem var(--primary-color);
+
+    ul {
+        color: var(--light);
+        padding: 3rem;
+        margin-top: 3rem;
+    }
+
+    img {
+        height: 2rem;
+        width: auto;
+    }
+
+    li, a{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        position: relative;
+        margin-bottom: 4rem;
+
+        &:after {
+            content: '';
+            position: absolute;
+            background-color: var(--primary-color);
+            height: 3px;
+            width: 0%;
+            left: 0;
+            bottom: -7px;
+            transition: .3s;
+        }
+
+        &:hover:after {
+            width: 70%;
+            transition: .3s;
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            cursor: pointer;
+            transition: ease-in-out .3s;
+        }
+    }
+
+    li a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+
+        width: 75vw;
+    }
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Anomaly",
+        "artist": "Tezbrit",
+        "songSrc": "anomaly.mp3"
+    },
+    {
+        "id": "2",
+        "name": "Astronova",
+        "artist": "Tezbrit",
+        "songSrc": "astronova.mp3"
+    },
+    {
+        "id": "3",
+        "name": "Cygnus",
+        "artist": "Tezbrit",
+        "songSrc": "cygnus.mp3"
+    },
+    {
+        "id": "4",
+        "name": "Get On Down Again",
+        "artist": "Tezbrit",
+        "songSrc": "get-on-down-again.mp3"
+    },
+    {
+        "id": "5",
+        "name": "Koshka",
+        "artist": "Tezbrit",
+        "songSrc": "koshka.mp3"
+    },
+    {
+        "id": "6",
+        "name": "Let It Go",
+        "artist": "Tezbrit",
+        "songSrc": "let-it-go.mp3"
+    },
+    {
+        "id": "7",
+        "name": "Null",
+        "artist": "Tezbrit",
+        "songSrc": "null.mp3"
+    },
+    {
+        "id": "8",
+        "name": "PANDEM",
+        "artist": "Tezbrit",
+        "songSrc": "pandem.mp3"
+    },
+    {
+        "id": "9",
+        "name": "Relate To",
+        "artist": "Tezbrit",
+        "songSrc": "relate-to.mp3"
+    },
+    {
+        "id": "10",
+        "name": "Stellar Euphoria",
+        "artist": "Tezbrit",
+        "songSrc": "stellar-euphoria.mp3"
+    },
+    {
+        "id": "11",
+        "name": "TrES 3b",
+        "artist": "Tezbrit",
+        "songSrc": "tres-3b.wav"
+    },
+    {
+        "id": "12",
+        "name": "Void System",
+        "artist": "Tezbrit",
+        "songSrc": "void-system.mp3"
+    }
+]
