@@ -3,78 +3,72 @@
         "id": "1",
         "name": "Anomaly",
         "artist": "Tezbrit",
-        "songSrc": "anomaly.flac"
+        "songSrc": "anomaly.mp3"
     },
     {
         "id": "2",
         "name": "Astronova",
         "artist": "Tezbrit",
-        "songSrc": "astronova.flac"
+        "songSrc": "astronova.mp3"
     },
     {
         "id": "3",
         "name": "Cygnus",
         "artist": "Tezbrit",
-        "songSrc": "cygnus.flac"
+        "songSrc": "cygnus.mp3"
     },
     {
         "id": "4",
         "name": "Get On Down Again",
         "artist": "Tezbrit",
-        "songSrc": "get-on-down-again.flac"
+        "songSrc": "get-on-down-again.mp3"
     },
     {
         "id": "5",
         "name": "Koshka",
         "artist": "Tezbrit",
-        "songSrc": "koshka.flac"
+        "songSrc": "koshka.mp3"
     },
     {
         "id": "6",
         "name": "Let It Go",
         "artist": "Tezbrit",
-        "songSrc": "let-it-go.flac"
+        "songSrc": "let-it-go.mp3"
     },
     {
         "id": "7",
-        "name": "Make My Body Rock",
+        "name": "Null",
         "artist": "Tezbrit",
-        "songSrc": "make-my-body-rock.flac"
+        "songSrc": "null.mp3"
     },
     {
         "id": "8",
-        "name": "Null",
+        "name": "PANDEM",
         "artist": "Tezbrit",
-        "songSrc": "null.flac"
+        "songSrc": "pandem.mp3"
     },
     {
         "id": "9",
-        "name": "PANDEM",
+        "name": "Relate To",
         "artist": "Tezbrit",
-        "songSrc": "pandem.flac"
+        "songSrc": "relate-to.mp3"
     },
     {
         "id": "10",
-        "name": "Relate To",
+        "name": "Stellar Euphoria",
         "artist": "Tezbrit",
-        "songSrc": "relate-to.flac"
+        "songSrc": "stellar-euphoria.mp3"
     },
     {
         "id": "11",
-        "name": "Stellar Euphoria",
+        "name": "TrES 3b",
         "artist": "Tezbrit",
-        "songSrc": "stellar-euphoria.flac"
+        "songSrc": "tres-3b.wav"
     },
     {
         "id": "12",
-        "name": "TrES 3b",
-        "artist": "Tezbrit",
-        "songSrc": "tres-3b.flac"
-    },
-    {
-        "id": "13",
         "name": "Void System",
         "artist": "Tezbrit",
-        "songSrc": "void-system.flac"
+        "songSrc": "void-system.mp3"
     }
 ]
