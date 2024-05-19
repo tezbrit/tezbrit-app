@@ -139,7 +139,6 @@ function Discografia() {
 
     return (
         <div className='ton'>
-            <h1>TON ALBUM</h1>
             <div className="carousel-container">
                 {albumData.map((album) => (
                 <div key={album.id} className="card-album">
